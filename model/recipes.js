@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const recipesSchema = mongoose.Schema({
-  id:{type:Number , required:true},
+ // id:{type:Number , required:true},
   name: { type: String, required: true },
   imageUrl : {type : String , require : true} , 
   description: { type: String, required: true },
